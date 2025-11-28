@@ -80,7 +80,7 @@ Expected shape:
 To train the model:
 
 ```bash
-python ddpm_latent.py \
+python AdvDDPM.py \
   --mode train \
   --latent path/to/latents.npz \
   --n_steps 50 \
