@@ -100,7 +100,7 @@ runs/<latent_name>_ddpm_<dim>_<steps>_<lbeta>_<ubeta>/train/
 ## ✨ Sampling
 
 ```bash
-python ddpm_latent.py \
+python AdvDDPM.py \
   --mode sample \
   --latent path/to/latents.npz \
   --n_steps 50 \
