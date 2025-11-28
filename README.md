@@ -21,10 +21,9 @@ This repository contains a PyTorch implementation of a **Denoising Diffusion Pro
 ```
 .
 ├── advanced_unet.py     # Custom UNet architecture
-├── dataset.py           # Data loader for latent arrays
+├── AdvDDPM.py           # Main DDPM training & sampling script
 ├── utils.py             # Utility helpers (seed setup, paths)
-├── ddpm_latent.py       # Main DDPM training & sampling script
-├── runs/                # Generated checkpoints, plots, and samples
+├── DDIM.py              # Main DDIM training & sampling script
 └── README.md
 ```
 
